@@ -1,11 +1,11 @@
+import React from 'react';
+import { StoreProvider } from './context/StoreContext';
 
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>Big Calender</h1>
-    </div>
+    <StoreProvider>
+      <h1>Big calender</h1>
+    </StoreProvider>
   );
 }
-
-export default App;
